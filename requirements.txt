@@ -32,3 +32,8 @@ voluptuous==0.15.2
 yarl==1.22.0
 yt-dlp==2025.10.22
 zeroconf==0.148.0
+fastapi
+uvicorn
+pyrofork
+tg-crypto
+stremio-python
