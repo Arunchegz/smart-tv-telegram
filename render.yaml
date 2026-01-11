@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: tg-stremio-bridge
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py # Change main.py to the entry file of your repo
+    envVars:
+      - key: API_ID
+        sync: false
+      - key: API_HASH
+        sync: false
+      - key: SESSION_STRING
+        sync: false
+      - key: PORT
+        value: 10000
+        
