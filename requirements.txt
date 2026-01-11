@@ -35,5 +35,5 @@ zeroconf==0.148.0
 fastapi
 uvicorn
 pyrofork
-tg-crypto
-stremio-python
+tgcrypto
+stremio
